@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact details</h1>
+  <p>My fictional address</p>
+  <p>Contact number</p>
+  <p>email@gmail.com</p>
+
+  <form class="" action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain">
+    <lable>Your name:</lable><br>
+    <input type="text" name="YourName" value=""><br>
+    <label>Your email:</label><br>
+    <input type="email" name="YourEmail" value=""><br>
+    <lable>Your message:</lable><br>
+    <textarea name="name" id="" cols="30" rows="10"></textarea><br>
+    <input type="submit" name="YourMessage">
+  </form>
+  <hr>
+
+  <form class="" action="index.html" method="post">
+    <lable>Your name:</lable>
+    <input type="text" name="" value="">
+    <input type="color" name="" value=""><br>
+    <label>Do you want to sign up to the email list?</label><br>
+    <lable>Password:</lable>
+    <input type="password" name="" value="">
+    <input type="checkbox" name="" value="">
+    <input type="submit" name="">
+  </form>
+  <hr>
+
+  <form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
+  <hr>
+
+  <!-- Form which will send a GET request to the current URL -->
+  <form>
+    <label>Name:</label>
+    <input name="submitted-name" autocomplete="name">
+    <button>Save</button>
+  </form>
+
+  <!-- Form which will send a POST request to the current URL -->
+  <form method="post">
+    <label>Name:</label>
+    <input name="submitted-name" autocomplete="name">
+    <button>Save</button>
+  </form>
+
+  <!-- Form with fieldset, legend, and label -->
+  <form method="post">
+    <fieldset>
+      <legend>Title</legend>
+      <label><input type="radio" name="radio"> Select me</label>
+    </fieldset>
+  </form>
+</body>
+
+</html>
